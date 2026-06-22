@@ -1,0 +1,13 @@
+{
+  "jenkins_job": {
+    "job_name": "my-test-pipeline",
+    "job_path": "job/my-test-pipeline",
+    "parameters": {
+      "ENVIRONMENT": "staging",
+      "BRANCH_NAME": "main",
+      "BUILD_VERSION": "1.0.0",
+      "DEPLOY_ENABLED": "true",
+      "TIMEOUT_MINUTES": "30"
+    }
+  }
+}
